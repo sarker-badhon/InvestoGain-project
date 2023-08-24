@@ -3,6 +3,8 @@ import InvestmentPlan from '../InvestmentPlan/InvestmentPlan';
 import InvestmentFeatured from '../InvestmentFeatured/InvestmentFeatured';
 import CalculateProfit from '../CalculateProfit/CalculateProfit';
 import Commission from '../Commission/Commission';
+import OurClient from '../OurClient/OurClient';
+import FAQ from '../FAQ/FAQ';
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
             <InvestmentFeatured></InvestmentFeatured>
             <CalculateProfit></CalculateProfit>
             <Commission></Commission>
+            <OurClient></OurClient>
+            <FAQ></FAQ>
         </div>
     );
 };
