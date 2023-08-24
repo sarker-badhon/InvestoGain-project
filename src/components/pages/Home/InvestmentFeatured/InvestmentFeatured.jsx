@@ -9,7 +9,8 @@ const InvestmentFeatured = () => {
                     className='text-white font-bold text-4xl lg:text-6xl py-5 px-2'>
                     Why Choose Our Investment
                 </h1>
-                <p className='text-xl text-white'>Curabitur ullamcorper ultricies nisi Nam eget dui. Etiam rhoncus fdsf df vulputate.</p>
+                <p className='text-xl text-white'>Curabitur ullamcorper ultricies nisi Nam eget dui. </p>
+                <p className='text-xl text-white'>Etiam rhoncus fdsf df vulputate. </p>
             </div>
 
 

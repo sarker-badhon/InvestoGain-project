@@ -2,6 +2,7 @@ import React from 'react';
 import InvestmentPlan from '../InvestmentPlan/InvestmentPlan';
 import InvestmentFeatured from '../InvestmentFeatured/InvestmentFeatured';
 import CalculateProfit from '../CalculateProfit/CalculateProfit';
+import Commission from '../Commission/Commission';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <InvestmentPlan></InvestmentPlan>
             <InvestmentFeatured></InvestmentFeatured>
             <CalculateProfit></CalculateProfit>
+            <Commission></Commission>
         </div>
     );
 };
