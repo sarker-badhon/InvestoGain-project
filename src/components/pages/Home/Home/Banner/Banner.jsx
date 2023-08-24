@@ -5,8 +5,8 @@ const Banner = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 pt-10 lg:pt-36 pb-16 lg:pb-72 mx-5 lg:mx-20">
            
             <div className="w-full text-white p-8 lg:leading-relaxed">
-                <h2 className="text-3xl lg:text-5xl font-bold mb-4 lg:mb-6 lg:leading-tight">
-                    Hyip Investment & Get <span className='text-[#DE606B]'>You Profit</span>
+                <h2 className="text-3xl lg:text-[47px] font-bold mb-4 lg:mb-6 lg:leading-tight">
+                InvestoGain Investment & Get <span className='text-[#DE606B]'>You Profit</span>
                 </h2>
                 <p className="mb-4 lg:mb-6 text-base lg:text-xl">
                     Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
