@@ -42,22 +42,23 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </div>
+                        <img className='h-20 w-20' src="https://i.ibb.co/k32VpTB/banner-img.png" alt="" />
                         <a href="/" className="btn btn-ghost normal-case text-3xl font-bold text-white ">InvestoGain</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-xl text-white">
                             {/* ... Desktop menu items ... */}
                             <li className="group">
-                                <a className="hover:text-[#e98c5d] font-bold">Home</a>
+                                <a className="hover:text-[#e98c5d] ">Home</a>
                             </li>
                             <li className="group">
-                                <a className="hover:text-[#e98c5d] font-bold">About</a>
+                                <a className="hover:text-[#e98c5d] ">About</a>
                             </li>
                             <li className="group">
-                                <a className="hover:text-[#e98c5d] font-bold">Plan</a>
+                                <a className="hover:text-[#e98c5d] ">Plan</a>
                             </li>
                             <li className="group relative">
-                                <a className="hover:text-[#e98c5d] font-bold">Pages</a>
+                                <a className="hover:text-[#e98c5d] ">Pages</a>
                                 <ul className="dropdown-content absolute hidden group-hover:block mt-9 py-4 bg-white text-black shadow-lg rounded-md w-44 pr-2 ">
                                     <li className='hover:bg-[#DE606B] rounded   '><a className='hover:text-white'>Dashboard</a></li>
                                     <li className='hover:bg-[#DE606B] rounded  '><a className='hover:text-white'>Blog Post</a></li>
@@ -69,10 +70,10 @@ const Navbar = () => {
                                 </ul>
                             </li>
                             <li className="group">
-                                <a className="hover:text-[#e98c5d] font-bold">Blog</a>
+                                <a className="hover:text-[#e98c5d] ">Blog</a>
                             </li>
                             <li className="group">
-                                <a className="hover:text-[#e98c5d] font-bold">Contact</a>
+                                <a className="hover:text-[#e98c5d] ">Contact</a>
                             </li>
                         </ul>
                     </div>

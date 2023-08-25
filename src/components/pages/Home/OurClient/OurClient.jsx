@@ -12,7 +12,7 @@ const OurClient = () => {
         slidesToScroll: 1,
     };
     return (
-        <div className='py-20 mx-20'>
+        <div className='py-20 md:mx-20 px-7'>
             <div className="text-white text-center">
                 <h1
                     className='text-white font-bold text-4xl lg:text-6xl py-5 px-2'>What's Say Our Happy Client
@@ -28,8 +28,8 @@ const OurClient = () => {
                         <div className="flex justify-center items-center flex-col h-full ">
                             <img src="https://i.ibb.co/xY5xL54/1671194887274-01.jpg" alt="Image 1" className="h-32 rounded-full" />
                             <h1 className="text-2xl font-bold mt-3 text-white"> Badhon Sarker</h1>
-                            <p className='text-white mt-2'>CEO .Telicom</p>
-                            <p className="text-lg mt-2 text-white text-center w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
+                            <p className='text-white mt-2 px-5'>CEO .Telicom</p>
+                            <p className="text-lg mt-2 text-white text-center md:w-[400px] px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit</p>
                         </div>
                     </div>
                     <div className="h-screen w-full mt-5" >
@@ -37,7 +37,7 @@ const OurClient = () => {
                         <img src="https://i.ibb.co/rtWm0DZ/smile-2072907-1280.jpg" alt="Image 1" className="h-32 rounded-full" />
                             <h1 className="text-2xl font-bold mt-3 text-white"> Badhon Sarker</h1>
                             <p className='text-white mt-2'>CEO .Telicom</p>
-                            <p className="text-lg mt-2 text-white text-center w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
+                            <p className="text-lg mt-2 text-white text-center md:w-[400px] px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
                         </div>
                     </div>
                     <div className="h-screen w-full mt-5">
@@ -45,7 +45,7 @@ const OurClient = () => {
                         <img src="https://i.ibb.co/P9YBd8r/guy-3237859-640.webp" alt="Image 1" className="h-32 rounded-full" />
                             <h1 className="text-2xl font-bold mt-3 text-white"> Badhon Sarker</h1>
                             <p className='text-white mt-2'>CEO .Telicom</p>
-                            <p className="text-lg mt-2 text-white text-center w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
+                            <p className="text-lg mt-2 text-white text-center md:w-[400px] px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
                         </div>
                     </div>
                     <div className="h-screen w-full mt-5" >
@@ -53,7 +53,7 @@ const OurClient = () => {
                         <img src="https://i.ibb.co/0s96Ysm/black-man-4699506-640.jpg" alt="Image 1" className="h-32 rounded-full" />
                             <h1 className="text-2xl font-bold mt-3 text-white"> Badhon Sarker</h1>
                             <p className='text-white mt-2'>CEO .Telicom</p>
-                            <p className="text-lg mt-2 text-white text-center w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
+                            <p className="text-lg mt-2 text-white text-center md:w-[400px] px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex quibusdam quisquam aspernatur a illo quod non cupiditate magnam beatae iusto commodi nostrum veniam corrupti provident dolorum impedit, ullam quidem. 1</p>
                         </div>
                     </div>
                     
