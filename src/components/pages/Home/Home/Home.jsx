@@ -5,6 +5,7 @@ import CalculateProfit from '../CalculateProfit/CalculateProfit';
 import Commission from '../Commission/Commission';
 import OurClient from '../OurClient/OurClient';
 import FAQ from '../FAQ/FAQ';
+import BlogPost from '../BlogPost/BlogPost';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Commission></Commission>
             <OurClient></OurClient>
             <FAQ></FAQ>
+            <BlogPost></BlogPost>
         </div>
     );
 };
