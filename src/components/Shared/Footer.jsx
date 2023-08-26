@@ -5,7 +5,7 @@ import { FaFacebook, FaYoutube, FaTwitter, FaPinterest } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <footer style={{ backgroundImage: "url('https://i.ibb.co/VggPtPN/hero-bg.png')" }} className=" py-10 mt-54">
+        <footer className="bg-black bg-opacity-40 rounded-lg py-8 ">
             <div className='text-center py-4'>
                 <div className='mb-5'>
 
@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
                 <div className="join mb-10">
                     <input className="input input-bordered join-item" placeholder="Your Email" />
-                    <button className="btn join-item rounded-full bg-orange-500">Subscribe</button>
+                    <button className="btn join-item rounded-full bg-[#DE606B]">Subscribe</button>
                 </div>
             </div>
             <div className="container mx-auto px-4">

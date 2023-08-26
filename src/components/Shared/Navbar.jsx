@@ -1,10 +1,10 @@
 import React from 'react';
-import Banner from '../pages/Home/Home/Banner/Banner';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='bg-blue-950 h-screen' style={{ backgroundImage: "url('https://i.ibb.co/VggPtPN/hero-bg.png')" }}>
-            <div className='mx-5 lg:mx-20'>
+        <div className=' mx-5 sticky top-0 z-50'>
+            <div  className='bg-blue-950'>
                 <div className="navbar">
                     <div className="navbar">
                         <div className="dropdown">
@@ -13,12 +13,16 @@ const Navbar = () => {
                             </label>
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow bg-base-100 text-black rounded-box w-52">
                                 {/* ... Mobile menu items ... */}
+                                <Link to="/">
                                 <li className="group">
-                                    <a className="hover:text-[#e98c5d] font-bold">Home</a>
+                                    <a className="hover:text-[#e98c5d] ">Home</a>
                                 </li>
+                            </Link>
+                            <Link to="/about">
                                 <li className="group">
-                                    <a className="hover:text-[#e98c5d] font-bold">About</a>
+                                    <a className="hover:text-[#e98c5d] ">About</a>
                                 </li>
+                            </Link>
                                 <li className="group">
                                     <a className="hover:text-[#e98c5d] font-bold">Plan</a>
                                 </li>
@@ -48,12 +52,16 @@ const Navbar = () => {
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-xl text-white">
                             {/* ... Desktop menu items ... */}
-                            <li className="group">
-                                <a className="hover:text-[#e98c5d] ">Home</a>
-                            </li>
-                            <li className="group">
-                                <a className="hover:text-[#e98c5d] ">About</a>
-                            </li>
+                            <Link to="/">
+                                <li className="group">
+                                    <a className="hover:text-[#e98c5d] ">Home</a>
+                                </li>
+                            </Link>
+                            <Link to="/about">
+                                <li className="group">
+                                    <a className="hover:text-[#e98c5d] ">About</a>
+                                </li>
+                            </Link>
                             <li className="group">
                                 <a className="hover:text-[#e98c5d] ">Plan</a>
                             </li>
@@ -83,7 +91,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <Banner />
+            {/* <Banner /> */}
         </div>
     );
 };
