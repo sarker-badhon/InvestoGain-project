@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div className=' mx-5 sticky top-0 z-50'>
-            <div  className='bg-blue-950'>
+            <div className='bg-blue-950'>
                 <div className="navbar">
                     <div className="navbar">
                         <div className="dropdown">
@@ -14,18 +14,21 @@ const Navbar = () => {
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow bg-base-100 text-black rounded-box w-52">
                                 {/* ... Mobile menu items ... */}
                                 <Link to="/">
-                                <li className="group">
-                                    <a className="hover:text-[#e98c5d] ">Home</a>
-                                </li>
-                            </Link>
-                            <Link to="/about">
-                                <li className="group">
-                                    <a className="hover:text-[#e98c5d] ">About</a>
-                                </li>
-                            </Link>
-                                <li className="group">
-                                    <a className="hover:text-[#e98c5d] font-bold">Plan</a>
-                                </li>
+                                    <li className="group">
+                                        <a className="hover:text-[#e98c5d] ">Home</a>
+                                    </li>
+                                </Link>
+                                <Link to="/about">
+                                    <li className="group">
+                                        <a className="hover:text-[#e98c5d] ">About</a>
+                                    </li>
+                                </Link>
+                                <Link to="/plan">
+                                    <li className="group">
+                                        <a className="hover:text-[#e98c5d] ">Plan</a>
+                                    </li>
+                                </Link>
+
                                 <li className="group relative">
                                     <a className="hover:text-[#e98c5d] font-bold">Pages</a>
                                     <ul className="dropdown-content absolute hidden group-hover:block mt-9 py-4 z-[5] bg-white text-black shadow-lg rounded-md w-44 pr-2 ">
@@ -62,9 +65,11 @@ const Navbar = () => {
                                     <a className="hover:text-[#e98c5d] ">About</a>
                                 </li>
                             </Link>
-                            <li className="group">
-                                <a className="hover:text-[#e98c5d] ">Plan</a>
-                            </li>
+                            <Link to="/plan">
+                                <li className="group">
+                                    <a className="hover:text-[#e98c5d] ">Plan</a>
+                                </li>
+                            </Link>
                             <li className="group relative">
                                 <a className="hover:text-[#e98c5d] ">Pages</a>
                                 <ul className="dropdown-content absolute hidden group-hover:block mt-9 py-4 bg-white text-black shadow-lg rounded-md w-44 pr-2 ">
