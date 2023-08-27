@@ -3,7 +3,7 @@ import React from 'react';
 const BlogPost = () => {
     return (
         <>
-        <div className='text-center pt-10 '>
+        <div className='text-center pt-10 bg-black bg-opacity-40 rounded-lg text-white h-[360px] md:h-[300px] mb-5 '>
             <h1 className='text-4xl md:text-5xl font-bold text-white pb-3'>Our Latest Blog Post</h1>
             <div>
             <p className='text-white '>Curabitur ullamcorper ultricies nisi Nam eget dui.</p>
@@ -11,7 +11,7 @@ const BlogPost = () => {
             </div>
         </div>
         
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:mx-20 md:py-20 px-2 pt-8 pb-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:mx-20 md:py-20 px-2 pt-5 pb-10'>
                 <div className='bg-gray-500 w-[360px] rounded overflow-hidden shadow-md hover:shadow-lg hover:shadow-blue-400 transition duration-300 ease-in-out'>
                     <img src="https://i.ibb.co/dbwqxW3/post-2.png" alt="" />
                     <div className='py-8 px-3'>

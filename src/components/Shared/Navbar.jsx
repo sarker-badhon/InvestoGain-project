@@ -41,12 +41,16 @@ const Navbar = () => {
                                         <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>FAQ</a></li>
                                     </ul>
                                 </li>
-                                <li className="group">
-                                    <a className="hover:text-[#e98c5d] font-bold">Blog</a>
-                                </li>
-                                <li className="group">
-                                    <a className="hover:text-[#e98c5d] font-bold">Contact</a>
-                                </li>
+                                <Link to="/blogPost">
+                                    <li className="group">
+                                        <a className="hover:text-[#e98c5d] ">Blog</a>
+                                    </li>
+                                </Link>
+                                <Link to="/contacts">
+                                    <li className="group">
+                                        <a className="hover:text-[#e98c5d] ">Contact</a>
+                                    </li>
+                                </Link>
                             </ul>
                         </div>
                         <img className='h-20 w-20' src="https://i.ibb.co/k32VpTB/banner-img.png" alt="" />
@@ -74,24 +78,37 @@ const Navbar = () => {
                                 <a className="hover:text-[#e98c5d] ">Pages</a>
                                 <ul className="dropdown-content absolute hidden group-hover:block mt-9 py-4 bg-white text-black shadow-lg rounded-md w-44 pr-2 ">
                                     <li className='hover:bg-[#DE606B] rounded   '><a className='hover:text-white'>Dashboard</a></li>
-                                    <li className='hover:bg-[#DE606B] rounded  '><a className='hover:text-white'>Blog Post</a></li>
+                                    <Link to="/blogPost">
+                                        <li className="group">
+                                            <a className="hover:text-[#e98c5d] ">Blog</a>
+                                        </li>
+                                    </Link>
                                     <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>Blog Details</a></li>
                                     <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>Create Account</a></li>
                                     <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>Privacy Policy</a></li>
                                     <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>Investor</a></li>
-                                    <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>FAQ</a></li>
+                                    <Link to="/faq">
+                                        <li className='hover:bg-[#DE606B]  rounded '><a className='hover:text-white'>FAQ</a></li>
+                                    </Link>
                                 </ul>
                             </li>
-                            <li className="group">
-                                <a className="hover:text-[#e98c5d] ">Blog</a>
-                            </li>
-                            <li className="group">
-                                <a className="hover:text-[#e98c5d] ">Contact</a>
-                            </li>
+                            <Link to="/blogPost">
+                                <li className="group">
+                                    <a className="hover:text-[#e98c5d] ">Blog</a>
+                                </li>
+                            </Link>
+                            <Link to="/contacts">
+                                <li className="group">
+                                    <a className="hover:text-[#e98c5d] ">Contact</a>
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <button className="text-white uppercase font-bold border-2 hover:bg-[#DE606B] border-[#DE606B] px-6 py-2 rounded-2xl mr-2 lg:mr-4">SignUp</button>
+                        <Link to="/SignUp">
+                            <button className="text-white uppercase font-bold border-2 hover:bg-[#DE606B] border-[#DE606B] px-6 py-2 rounded-2xl mr-2 lg:mr-4">SignUp</button>
+                        </Link>
+
                         {/* <button style={{ backgroundImage: "linear-gradient(to right, #de5c70 0%, #e98c5d 51%, #de5c70 100%)" }} className="text-white uppercase font-bold px-6 py-2.5 rounded-2xl lg:px-8 lg:py-2.5">Login</button> */}
                     </div>
                 </div>

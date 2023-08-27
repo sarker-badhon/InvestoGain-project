@@ -10,6 +10,9 @@ import Main from './components/LayOut/Main.jsx';
 import Home from './components/pages/Home/Home/Home.jsx';
 import About from './components/pages/About/About.jsx';
 import Plan from './components/pages/Plan/Plan.jsx';
+import Contacts from './components/pages/Home/Contacts/Contacts.jsx';
+import BlogPost from './components/pages/Home/BlogPost/BlogPost.jsx';
+import FAQ from './components/pages/Home/FAQ/FAQ.jsx';
 
 
 const router = createBrowserRouter([
@@ -28,6 +31,18 @@ const router = createBrowserRouter([
       {
         path:"/plan",
         element:<Plan></Plan>
+      },
+      {
+        path:"/contacts",
+        element:<Contacts></Contacts>
+      },
+      {
+        path:"/blogPost",
+        element:<BlogPost></BlogPost>
+      },
+      {
+        path:"/faq",
+        element:<FAQ></FAQ>
       },
     ]
   },
